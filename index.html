@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ar">
+<!-- Html Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>الموقع-سوق أونلاين لمواد البناء فى مصر</title>
+    <link rel="icon" type="image/x-icon" href="https://elmawkaa.com/img/htmlLogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<!-- Html body -->
+
+<body>
+    <!-- --------------------------header------------ -->
+    <nav class="header">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="https://elmawkaa.com/img/logo.png" alt="logo">
+            </a>
+            <div class="container">
+                <li class="nav-item"><a class="nav-link" href="#ProductCategories">مواد بناء</a></li>
+                <li class="nav-item"><a class="nav-link" href="#latestRFQs">أحدث الطلبيات</a> </li>
+                <li class="nav-item"><a class="nav-link" href="">كيف يعمل؟</a></li>
+                <li class="nav-item"><a class="nav-link" href="">سجل كمورد</a></li>
+                <li class="nav-item"><a class="nav-link" href="">المدونة </a></li>
+                <li class="nav-item"><a class="nav-link" href="">الباقات</a></li>
+                <li class="nav-item"><a class="nav-link" href="">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="">
+                <ul class="">
+                    <li class="nav-item">
+                        <a id="loginLink" class="login-link">
+                            <i class="fas fa-user"></i> تسجيل دخول
+                            <span class="new">جديد</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------- sections------------------------------ -->
+    <div class="sections">
+        <!------------- first section-------- -->
+        <section class="first-section" id="">
+            <div class="container" style="justify-content: center;">
+                <!-- style="padding-bottom: 30px;"> -->
+                <div class="row">
+                    <div>
+                        <div dir="rtl" class="hero-text">
+                            <h2>
+                                تعبت من عملية شراء مواد البناء في مصر؟
+                            </h2>
+                            <h4 class="h4">
+                                اطلب عروض أسعار دلوقتي أونلاين من أكبر قاعدة بيانات للموردين في مصر
+                            </h4>
+                            <div class="row">
+                                <select id="ProductCategory" name="ProductC" class="ProductCategory"
+                                    style="display: none;">
+                                    <option value="4">خرسانة جاهزة</option>
+                                    <option value="1">أسمنت معبأ</option>
+                                    <option value="14">أسمنت سايب</option>
+                                    <option value="2">حديد تسليح</option>
+                                    <option value="3">طوب أحمر طفلى مفرغ</option>
+                                    <option value="9">طوب أسمنتي مصمت</option>
+                                    <option value="200">بلوك أسمنتي مفرغ</option>
+                                    <option value="149">بلاط موزايكو </option>
+                                    <option value="23">بلاط انترلوك</option>
+                                    <option value="152">ألياف حديدية للخرسانة</option>
+                                    <option value="7">رمل</option>
+                                    <option value="162">مواد كهربائية</option>
+                                    <option value="160">مواد سباكة</option>
+                                    <option value="38">عمالة</option>
+                                    <option value="10">جبس أبيض</option>
+                                    <option value="11">زلط </option>
+                                    <option value="12">كرانيش</option>
+                                    <option value="13">سن</option>
+                                    <option value="15">فيوتيك</option>
+                                    <option value="16">كرافان</option>
+                                    <option value="17">طوب حرارى</option>
+                                    <option value="19">رخام صناعي</option>
+                                    <option value="20">HPL فواصل حمامات</option>
+                                    <option value="21">ألومنيوم</option>
+                                    <option value="22">دهانات</option>
+                                    <option value="24">مستلزمات الأمن الصناعي</option>
+                                    <option value="25">ورق حائط</option>
+                                    <option value="26">مواد لصق سيراميك</option>
+                                    <option value="27">عوازل أسمنتي</option>
+                                    <option value="28">ايبوكسي</option>
+                                    <option value="29">أبواب مصفحة</option>
+                                    <option value="30">أبواب خشب</option>
+                                    <option value="31">اكسسوارات الأبواب</option>
+                                    <option value="32">شبابيك UPVC</option>
+                                    <option value="33">أبواب UPVC</option>
+                                    <option value="34">شبابيك ألومنيوم</option>
+                                    <option value="35">أبواب ألومنيوم</option>
+                                    <option value="36">اكسسوارات الشبابيك</option>
+                                    <option value="37">تشطيبات تجارية</option>
+                                    <option value="18">مياه</option>
+                                    <option value="48">بواطات الكهرباء</option>
+                                    <option value="49">لوحات توزيع الكهرباء</option>
+                                    <option value="50">خشب للشدات</option>
+                                    <option value="51">مواد لاصقة وربط</option>
+                                    <option value="52">مواد العزل الحراري</option>
+                                    <option value="53">مسامير</option>
+                                    <option value="54">قواطع تيار كهربائي</option>
+                                    <option value="55">بلوكات أسمنتية</option>
+                                    <option value="56">حجر جيرى</option>
+                                    <option value="57">حجر دبش</option>
+                                    <option value="58"> مزراب</option>
+                                    <option value="59">حجر معاد البناء</option>
+                                    <option value="60">مفاتيح اضاءة</option>
+                                    <option value="61">وشوش مفاتيح اضاءة</option>
+                                    <option value="62">أحواض</option>
+                                    <option value="63">خلاطات احواض</option>
+                                    <option value="64">بانيوهات</option>
+                                    <option value="65">حمامات القدم</option>
+                                    <option value="66">تواليت</option>
+                                    <option value="67">اكسسوارات</option>
+                                    <option value="68">خلاطات المطبخ</option>
+                                    <option value="69">اكسسوارات ذوى الاحتياجات الخاصة
+                                    </option>
+                                    <option value="70">بيديه</option>
+                                    <option value="71">دش و مرفقات الاستحمام</option>
+                                    <option value="72">مرايا الحمامات</option>
+                                    <option value="73">تغطيات الحمامات والمطبخ</option>
+                                    <option value="74">بورسلين</option>
+                                    <option value="75">رخام</option>
+                                    <option value="76">مواسير التغذية</option>
+                                    <option value="77">مواسير الصرف الصحي</option>
+                                    <option value="78">محابس</option>
+                                    <option value="79">البيب والجريليات</option>
+                                    <option value="80">غرف التفتيش والاغطية</option>
+                                    <option value="81">اكسسوارات السباكة</option>
+                                    <option value="82">الطلمبات</option>
+                                    <option value="83">فلاتر المياه</option>
+                                    <option value="84">خزانات المياه</option>
+                                    <option value="85">العدادات والمقاييس</option>
+                                    <option value="86">سخانات المياه</option>
+                                    <option value="87">أنظمه حمامات السباحة والنافورات
+                                    </option>
+                                    <option value="88">سخانات شمسية</option>
+                                    <option value="89">برايز</option>
+                                    <option value="90">علبة ماجيك</option>
+                                    <option value="91">PVC ألواح</option>
+                                    <option value="92">PVC قراميد بلاستيك</option>
+                                    <option value="93">UPVC ألواح بديل الصاج المعرج
+                                    </option>
+                                    <option value="94">أنظمة البولي كاربونايت</option>
+                                    <option value="95">ألواح خشب بلاستيكي</option>
+                                    <option value="96">ألواح ألمونيوم كلادينج</option>
+                                    <option value="97">PVC ألواح ساندويتش</option>
+                                    <option value="98">التكييف</option>
+                                    <option value="99">عزل لقنوات المكيف</option>
+                                    <option value="100">التدفئة</option>
+                                    <option value="101">مواسير وتوصيلات</option>
+                                    <option value="102">التبريد</option>
+                                    <option value="103">تجهيزات المكيفات</option>
+                                    <option value="104">التهوية</option>
+                                    <option value="105">التحكم فى الاهتزازات و الضوضاء
+                                    </option>
+                                    <option value="106">شيلرات</option>
+                                    <option value="107">انظمة DX</option>
+                                    <option value="108">انظمة VRF &amp; VRV</option>
+                                    <option value="109">أحجار طبيعية</option>
+                                    <option value="110">بلاطات أسمنتية</option>
+                                    <option value="111">بلاطات مطاط</option>
+                                    <option value="112">بلاطات ترتان</option>
+                                    <option value="113">بلاطات رخام</option>
+                                    <option value="114">بلاط سنجابي</option>
+                                    <option value="115">بلاطات جرانيت</option>
+                                    <option value="116">وزرات الأرضيات</option>
+                                    <option value="117">أرضيات HDF</option>
+                                    <option value="118">أرضيات الباركيه</option>
+                                    <option value="119">أرضيات الفينيل</option>
+                                    <option value="120">سيراميك</option>
+                                    <option value="121">لوحات توزيع الجهد المنخفض</option>
+                                    <option value="122">لوحات توزيع الجهد المتوسط</option>
+                                    <option value="123">الأسلاك والكابلات</option>
+                                    <option value="124">أنظمة ذكية</option>
+                                    <option value="125">طاقة شمسية</option>
+                                    <option value="126">سقالات معدنية </option>
+                                    <option value="127">أبواب مصانع متحركة </option>
+                                    <option value="129">معدات ثقيلة </option>
+                                    <option value="133">سوستة السحب</option>
+                                    <option value="134">لمبة ليد</option>
+                                    <option value="135">كشاف اضاءة ليد للواجهات</option>
+                                    <option value="136">كشاف اضاءة ليد بانل سقف</option>
+                                    <option value="137">بلاط سجاد</option>
+                                    <option value="138">جبس مصيص</option>
+                                    <option value="139">جبس ديكور</option>
+                                    <option value="140">سيمينت بورد</option>
+                                    <option value="142">سلك رباط حديد</option>
+                                    <option value="143">شبك</option>
+                                    <option value="144">بردورة</option>
+                                    <option value="145">محولات كهرباء</option>
+                                    <option value="146">أعمدة كهرباء</option>
+                                    <option value="147">نجف ديكوري</option>
+                                    <option value="148">بلاط رصيف</option>
+                                    <option value="150">طوب وردي</option>
+                                    <option value="151">طوب رملي</option>
+                                    <option value="153">كمامة</option>
+                                    <option value="154">أرضيات مرتفعة</option>
+                                    <option value="155">قواطيع ألمونيوم</option>
+                                    <option value="156">هاندريل</option>
+                                    <option value="128">زجاج</option>
+                                    <option value="130">جيبسوم بورد</option>
+                                    <option value="131">قرميد</option>
+                                    <option value="132">حجر هاشمي</option>
+                                    <option value="157">شدات معدنية</option>
+                                    <option value="158">دراي ميكس </option>
+                                    <option value="159">مونة بلانكو ( محارة حديثه)
+                                    </option>
+                                    <option value="161">سلك لحام</option>
+                                    <option value="163">خرسانة مطبوعة</option>
+                                    <option value="164">جير حي</option>
+                                    <option value="165">بلومايت أكسيد الماغنسيوم</option>
+                                    <option value="166">خرسانة هليكوبتر</option>
+                                    <option value="167">طوب خفيف</option>
+                                    <option value="168">مونة فيجا</option>
+                                    <option value="169">أنظمة حريق</option>
+                                    <option value="170">أخشاب</option>
+                                    <option value="171">إضاءة</option>
+                                    <option value="172">كابلات الجهد المنخفض</option>
+                                    <option value="173">كابلات الجهد المتوسط</option>
+                                    <option value="174">كابلات الجهد العالي</option>
+                                    <option value="175">كابلات مكافحة الحرائق</option>
+                                    <option value="176">كابلات الهاتف</option>
+                                    <option value="177">كابلات الشبكة المحلية LAN</option>
+                                    <option value="178">كابلات السكك الحديدية</option>
+                                    <option value="179">كابلات الري</option>
+                                    <option value="180">كابلات الدش coaxial</option>
+                                    <option value="181">كابلات التحكم</option>
+                                    <option value="182">كابلات الألياف الضوئية</option>
+                                    <option value="183">ملحقات الكابلات</option>
+                                    <option value="184">أسلاك لف نحاسية</option>
+                                    <option value="185">أسلاك الحديد المجلفن</option>
+                                    <option value="186">عوازل كهربائية</option>
+                                    <option value="187">طوب فوم</option>
+                                    <option value="188">سن بازلت</option>
+                                    <option value="189">حجر بازلت</option>
+                                    <option value="190">ألواح أكريليك</option>
+                                    <option value="191">خرسانة رغوية</option>
+                                    <option value="193">بلاط خرسانة</option>
+                                    <option value="194">حوامل تكييف</option>
+                                    <option value="195">بلاط بازليون</option>
+                                    <option value="196">الكوبايت</option>
+                                    <option value="197">فوم رغوة بولي يوريثان لتثبيت
+                                        الحلوق</option>
+                                    <option value="198">الواح صاج</option>
+                                    <option value="199">جرانيت</option>
+                                    <option value="192">أسمنت أبيض</option>
+                                    <option value="201">طوب أحمر طفلى مصمت</option>
+                                    <option value="202">طوب زجاجي</option>
+                                    <option value="203">بلاط موزايكو</option>
+                                    <option value="204">بلوك أسمنتي مع فوم مجروش</option>
+                                    <option value="205">أكسيد حديد</option>
+                                    <option value="206">طفلة أسوانلي</option>
+                                    <option value="207">سقالات معدنية</option>
+                                    <option value="208">أبواب مقاومة للحريق</option>
+                                    <option value="209">أسفلت</option>
+                                    <option value="210">Abrasive garnet</option>
+                                    <option value="211">أخشاب</option>
+                                    <option value="212">شبكات الري</option>
+                                    <option value="213">توريدات زراعية</option>
+                                    <option value="214">ألواح خشب ميلامين</option>
+                                    <option value="215">نجيلة صناعي</option>
+                                    <option value="216">مواد ترميم</option>
+                                    <option value="217">نقل</option>
+                                    <option value="218">جلاس فايبر</option>
+                                    <option value="219">بولي بروبيلين فايبر</option>
+                                    <option value="224">فواصل تربة</option>
+                                    <option value="221">حوامل الكابلات</option>
+                                    <option value="223">أنظمة تثبيت التربة</option>
+                                    <option value="227">زراعة على الأسطح</option>
+                                    <option value="225">خرسانة بالنجيلة</option>
+                                    <option value="141">طوب معزول حراري</option>
+                                    <option value="226">أقفاص حجرية</option>
+                                    <option value="228">قطاعات ألومنيوم</option>
+                                    <option value="229">لاند اسكيب أرضيات</option>
+                                    <option value="230">لاند اسكيب حوائط</option>
+                                    <option value="231">بديل خشب</option>
+                                    <option value="232">بديل رخام</option>
+                                    <option value="5">إضافات خرسانية</option>
+                                    <option value="6">مواد العزل المائى</option>
+                                    <option value="8">حجر صناعي</option>
+                                    <option value="39">معجون</option>
+                                    <option value="40">أبواب جراج</option>
+                                    <option value="41">شيش حصيرة</option>
+                                    <option value="42">كيماويات البناء</option>
+                                    <option value="43">بوابات حديد</option>
+                                    <option value="44">أسوار جاهزة</option>
+                                    <option value="45">ملاعب رياضية</option>
+                                    <option value="46">قطاعات حديد</option>
+                                    <option value="47">خراطيم الكهرباء</option>
+                                </select>
+                                <input class="select2-search__field" type="search" role="searchbox"
+                                    placeholder="جرب تكتب &quot;أسمنت&quot;"
+                                    style="width: 655px; text-align: center; font-size: x-large;">
+                                <div class="input-group-prepend">
+                                    <button class="btn-purple" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                            <div style="margin: 20px 0; color: #fff;"> او
+                                ارفع مقايستك كملف
+                                <label for="upload-photo" style="margin: 20px 0; background-color: #935cae;padding: 9px;border-radius: 5px;color: white;">أضف صورة المنتج</label>
+                                <input type="file" name="photo" id="upload-photo" value="photo"
+                                    style="display: none;" /> الآن
+                            </div>
+                    </div>
+        </section>
+        <!-- Products Section -->
+        <section id="ProductCategories" class="section-products">
+            <div class="">
+                <div class="section-title">
+                    <h2>
+                        اطلب عروض أسعار لمواد البناء الآن
+                    </h2>
+                </div>
+                <div dir="rtl" class="row">
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/inWALv9JbiDYHTe2Tgts9SKtvNBGdDBV_706b6eeaa90100e39d313f5ef5ce0ec4890db7009018dc553ef3f0870b88df45.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>خرسانة جاهزة</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">قواعد</h3>
+                                <h3 class="cat-tags-ar">أعمده</h3>
+                                <h3 class="cat-tags-ar">بلاطات</h3>
+                                <h3 class="cat-tags-ar">أرضيات</h3>
+                                <h3 class="cat-tags-ar">مقاوم</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/dbHp2ydUlej5asicIPTonloibeh4dWfj_4996cac43afb0708940a6ee05f6cc605e84f6ee8020c6887d34cca43d9c25182.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>أسمنت معبأ</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">أسمنت السويس</h3>
+                                <h3 class="cat-tags-ar">شكاير أسمنت</h3>
+                                <h3 class="cat-tags-ar">شيكارة</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/OYkOv660kxoRbsM2yUHB07PjJ86Bem0h_5d5bbcd2328773e25ee37cbe6c1ba9e6cdd99782b9368433ae18d362f3e8af7b.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>أسمنت سايب</h2>
+                            </div>
+
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">أسمنت السويس</h3>
+                                <h3 class="cat-tags-ar">بني سويف</h3>
+                                <h3 class="cat-tags-ar">السويدي</h3>
+                                <h3 class="cat-tags-ar">حلوان</h3>
+                                <h3 class="cat-tags-ar">الممتاز</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/Xpumiescp5gnKgPdtKbYs9F76bZJKiOR_b4733a83a19d9747a7b28f57ad7d3e62bb2312101075e85ac157fb40d9a1f5a0.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>حديد تسليح</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">عز</h3>
+                                <h3 class="cat-tags-ar">المصريين</h3>
+                                <h3 class="cat-tags-ar">العتال</h3>
+                                <h3 class="cat-tags-ar">بشاي</h3>
+                                <h3 class="cat-tags-ar">الدخيلة</h3>
+                                <h3 class="cat-tags-ar">الكومي</h3>
+                                <h3 style="display: none" class="cat-tags-ar">الجارحي</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/zjImFtBgc9aatFAYurHr4rMyBfV6nJlw_49ebbcb358fb3a4c888b79f2d3aa9c43804b74c78f794696b354cc1adc9e013d.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>طوب أحمر طفلى مفرغ</h2>
+                            </div>
+
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">طوب أحمر مفرغ</h3>
+                                <h3 class="cat-tags-ar">طوبة مقاس عادي</h3>
+                                <h3 class="cat-tags-ar">طوبة مقاس دوبل</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/O33tbspe0XhYRwlq8Ow9FaagcqfxkCyy_123ef2c5217d5175a8f41576ebd461e38d2a9fc89bd095b14ca927a6eb9d8a02.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>طوب أسمنتي مصمت</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">نص آلي</h3>
+                                <h3 class="cat-tags-ar">آلي</h3>
+                                <h3 class="cat-tags-ar">أسمنتي مصمت</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank">
+                            <img src="https://baserow.elmawkaa.com/media/user_files/nNSprD1pucBdGgm9Vxx9EiXgleGqfzdJ_9053cbd3f4a3670844a02fa038608b05b7ee3a852d1410348ddecd44eb091684.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>بلوك أسمنتي مفرغ</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">نص آلي</h3>
+                                <h3 class="cat-tags-ar">آلي</h3>
+                                <h3 class="cat-tags-ar">أسمنتي مفرغ</h3>
+                                <h3 class="cat-tags-ar">بلوكات أسمنية</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class=" clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/pFWOjuCynTF5bSmzubsuvhEsynvT0P1T_c35f84b7a6b084e0c2f34aa1c54cac64691c85040c0190edaf207e801a77ab9f.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>بلاط موزايكو </h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">بلاط حصوة</h3>
+                                <h3 class="cat-tags-ar">بلاط أسمنتي</h3>
+                                <h3 class="cat-tags-ar">بلاط موزايكو</h3 <h3 class="cat-tags-ar">بلاط تيرازو</h3>
+                                <h3 class="cat-tags-ar">موزايكو بلدي</h3>
+                                <h3 class="cat-tags-ar">بلاط كسر رخام</h3>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/SC9QfqcA83IpcomkNMl3cGgn5q0XAqqW_1f9ac46c6100760e25944dab51a84d5d01ced3a74dfaf9c937f59454b23e45e0.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>بلاط انترلوك</h2>
+                            </div>
+
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">بلاط انترلوك</h3>
+                                <h3 class="cat-tags-ar">بلاط رصيف</h3>
+                                <h3 class="cat-tags-ar">بلاط خرساني متداخل</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/vhApUbT5AingkLj2N7dmCAUrju06YzTU_6e721b2c2c704a907b6112034ad9f62fe981868dbc64a85ee31b56daecc0b1dc.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>ألياف حديدية للخرسانة</h2>
+                            </div>
+
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">Straight Fiber</h3>
+                                <h3 class="cat-tags-ar">Hooked Fiber</h3>
+                                <h3 class="cat-tags-ar">Stranded Fiber</h3>
+                                <h3 class="cat-tags-ar">إضافات خرسانية</h3>
+                                <h3 class="cat-tags-ar">استيل فايبر</h3>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"> <img
+                                src="https://baserow.elmawkaa.com/media/user_files/IwV3JkoRiGqkYWl7F0E3hNrd9svL8kzL_b897a8310723fbf517ec75a2f66ac0161a3e962b878d247518a232c92967a921.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>رمل</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">رمل خشن</h3>
+                                <h3 class="cat-tags-ar">رمل حرش</h3>
+                                <h3 class="cat-tags-ar">رمل خالي من المواد العضوية</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank">
+                            <img src="https://baserow.elmawkaa.com/media/user_files/9dSoJx1DOi8ZqahVpE4xiFq0ulFB19gC_cd0eb134a2073e31cf4525028bbba71638f4a6d94af7969c7ecae84ad95423ad.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>مواد كهربائية</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">لوحات توزيع الكهرباء</h3>
+                                <h3 class="cat-tags-ar">إضاءة</h3>
+                                <h3 class="cat-tags-ar">طاقة شمسية</h3>
+                                <h3 class="cat-tags-ar">خراطيم الكهرباء</h3>
+                                <h3 class="cat-tags-ar">مفاتيح اضاءة</h3>
+                                <h3 class="cat-tags-ar">الأسلاك والكابلات</h3>
+                                <h3 style="display: none" class="cat-tags-ar">أنظمة ذكية</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class=" clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img
+                                src="https://baserow.elmawkaa.com/media/user_files/1lCTceYa4mFl3XKFUHJxARaXixlhqA8l_7cbee4eb548ce0450cce8a21ecd29225512703e766a63546ac33675f798be325.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>مواد سباكة</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">مواسير التغذية</h3>
+                                <h3 class="cat-tags-ar">محابس</h3>
+                                <h3 class="cat-tags-ar">الطلمبات</h3>
+                                <h3 class="cat-tags-ar">مواسير الصرف الصحي</h3>
+                                <h3 class="cat-tags-ar">البيب والجريليات</h3>
+                                <h3 class="cat-tags-ar">العدادات والمقاييس</h3>
+                                <h3 style="display: none" class="cat-tags-ar">خزانات المياه</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="cat1" class="clearfix">
+                        <a href="multi-steps-form.html" target="_blank"><img src="https://elmawkaa.com/img/buildingMaterials/BuildingMaterials.jpg"
+                                alt="مواد بناء مختلفة" class="img_pro">
+                            <!-- Hover Content -->
+                            <div class="hover-content">
+                                <div class="line"></div>
+                                <p></p>
+                                <h2>مواد بناء أخرى</h2>
+                            </div>
+                            <div class="hover-content-tags-ar hover-content">
+                                <h3 class="cat-tags-ar">جبس</h3>
+                                <h3 class="cat-tags-ar">قطاعات حديد</h3>
+                                <h3 class="cat-tags-ar">إضاءة</h3>
+                                <h3 class="cat-tags-ar">أبواب وشبابيك</h3>
+                                <h3 class="cat-tags-ar">بلاط أرضيات وحوائط</h3>
+                                <h3 class="cat-tags-ar">فايبر استيل...</h3>
+                                <h3 style="display: none;" class="cat-tags-ar">حديد</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--- END ROW -->
+            </div>
+        </section>
+    </div>
+    <!-- offer Section -->
+    <!-- <section id="latestRFQs" class="section-products">
+        <div class="">
+            <div onclick="location.href='/RFQFeed'" style="cursor: pointer;"
+                class="section-title text-center wow zoomIn">
+                <h2>
+                    أحدث طلبات عروض الأسعار
+                </h2>
+            </div>
+            <div class="row" id="rfq-cards">
+                <div data-index="0" data-product="حديد تسليح" style="padding: 0; display: inherit;" dir="rtl"
+                    class="card elmawkaa-hover-background ">
+                    <div onclick="location.href='/RFQBid?sn=RFQ-15922'" style="cursor: pointer;"
+                        class="card-body elmawkaa-hover-background">
+                        <div class="d-flex justify-content-between elmawkaa-links">
+                            <a href="/RFQBid?sn=RFQ-15922" style="width: 100%" class="elmawkaa-card-title">حديد
+                                تسليح</a>
+                            <a href="/RFQBid?sn=RFQ-15922" style="width: 40%;text-align: left;"
+                                class="elmawkaa-card-subtitle">RFQ-15922</a>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem; font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                20
+                                طن - </h2>
+                            <h2 class="elmawkaa-card-subtitle-small">الدفع كاش -</h2>
+                            <h2 class="elmawkaa-card-subtitle-small">نشرت منذ ١٠ ساعات</h2>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem;" >عروض الأسعار:</h2>
+                            <h2 style="font-weight: bold;" >
+                                4</h2>
+                        </div>
+
+                        <div >
+
+
+                        </div>
+                        <div >
+                            <span > مدينة 15 مايو - القاهرة </span>
+                            <div><i class="fas fa-map-marker-alt" style="color:#935cae">location_on</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-index="1" data-product="طوب أحمر طفلى مفرغ" style="padding: 0; display: inherit;" dir="rtl"
+                    class="card elmawkaa-hover-background ">
+                    <div onclick="location.href='/RFQBid?sn=RFQ-15921'" style="cursor: pointer;"
+                        class="card-body elmawkaa-hover-background">
+                        <div class="d-flex justify-content-between elmawkaa-links">
+                            <a href="/RFQBid?sn=RFQ-15921" style="width: 100%" class="elmawkaa-card-title">طوب أحمر طفلى
+                                مفرغ</a>
+                            <a href="/RFQBid?sn=RFQ-15921" style="width: 40%;text-align: left;"
+                                class="elmawkaa-card-subtitle">RFQ-15921</a>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem; font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                100,000
+                                طوبة - </h2>
+                            <h2 class="elmawkaa-card-subtitle-small">الدفع كاش -</h2>
+                            <h2 class="elmawkaa-card-subtitle-small">نشرت منذ ٢١ ساعة</h2>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem;" class="elmawkaa-card-subtitle-small">عروض الأسعار:</h2>
+                            <h2 style="font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                1</h2>
+                        </div>
+                        <div class="d-flex flex-wrap justify-content-start align-items-center">
+                        </div>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <span class="elmawkaa-card-subtitle-small"> الأقصر - الأقصر </span>
+                            <div><i class="fas fa-map-marker-alt" style="color:#935cae"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-index="2" data-product="حديد تسليح" style="padding: 0; display: inherit;" dir="rtl"
+                    class=" card elmawkaa-hover-background ">
+                    <div onclick="location.href='/RFQBid?sn=RFQ-15920'" style="cursor: pointer;"
+                        class="card-body elmawkaa-hover-background">
+                        <div class="d-flex justify-content-between elmawkaa-links">
+                            <a href="/RFQBid?sn=RFQ-15920" style="width: 100%" class="elmawkaa-card-title">حديد
+                                تسليح</a>
+                            <a href="/RFQBid?sn=RFQ-15920" style="width: 40%;text-align: left;"
+                                class="elmawkaa-card-subtitle">RFQ-15920</a>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem; font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                20
+                                طن - </h2>
+                            <h2 class="elmawkaa-card-subtitle-small">الدفع كاش -</h2>
+                            <h2 class="elmawkaa-card-subtitle-small">نشرت منذ يوم واحد</h2>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem;" class="elmawkaa-card-subtitle-small">عروض الأسعار:</h2>
+                            <h2 style="font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                2</h2>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-start align-items-center">
+
+                        </div>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <span class="elmawkaa-card-subtitle-small"> القاهرة الجديدة - التجمع - القاهرة </span>
+                            <div><i class="fas fa-map-marker-alt" style="color:#935cae">location_on</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-index="3" data-product="حديد تسليح" style="padding: 0; display: inherit;" dir="rtl"
+                    class=" card elmawkaa-hover-background ">
+                    <div onclick="location.href='/RFQBid?sn=RFQ-15912'" style="cursor: pointer;"
+                        class="card-body elmawkaa-hover-background">
+                        <div class="d-flex justify-content-between elmawkaa-links">
+                            <a href="/RFQBid?sn=RFQ-15912" style="width: 100%" class="elmawkaa-card-title">حديد
+                                تسليح</a>
+                            <a href="/RFQBid?sn=RFQ-15912" style="width: 40%;text-align: left;"
+                                class="elmawkaa-card-subtitle">RFQ-15912</a>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem; font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                20
+                                طن - </h2>
+                            <h2 class="elmawkaa-card-subtitle-small">الدفع كاش -</h2>
+                            <h2 class="elmawkaa-card-subtitle-small">نشرت منذ يومين</h2>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+
+                            <h2 style="margin-left: 0.5rem;" class="elmawkaa-card-subtitle-small">عروض الأسعار:</h2>
+                            <h2 style="font-weight: bold;" class="elmawkaa-card-subtitle-small">
+                                3</h2>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-start align-items-center">
+                        </div>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <span class="elmawkaa-card-subtitle-small"> 6 أكتوبر - الجيزة </span>
+                            <div><i class="fas fa-map-marker-alt" style="color:#935cae">location_on</i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center wow zoomIn">
+                <a style="padding: 1rem; margin: 50px 0 0 0; font-size: larger;" class="btn btn-purple" href="/RFQFeed">
+                    اعرض جميع الطلبيات
+                </a>
+            </div>
+        </div>
+        < END CONTAINER-->
+    <!-- </section> -->
+    <!-- --------------------Footer--------------------------------------- -->
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="" style="position: absolute;left: 5%">
+                    <div class="copyright">
+                        <p>حقوق النشر 2022 - Elmawkaa, Inc. | جميع الحقوق محفوظة</p>
+                    </div>
+                    <!--- END FOOTER COPYRIGHT -->
+                </div>
+                <!--- END COL -->
+                <div class="" style="position: absolute; right: 10%;">
+                    <div class="footer_social  pull-right text-center " style="font-size:20px;margin-top:12px ;">
+                        <span>
+                            <a href="/bookCall" class="call" ">
+                            احجز مكالمة
+                        </a>
+                        مع أحد خبرائنا
+                    </span>
+                </div>
+                <div class=" footer_social pull-right">
+                                <ul>
+                                    <li>
+                                        <a class="f_facebook" href="https://www.facebook.com/ElMawkaa/">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="f_twitter" href="https://twitter.com/Elmawkaa1">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="f_instagram" href="https://www.instagram.com/elmawkaa/">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="f_linkedin" href="https://www.linkedin.com/company/elmawkaa">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </div>
+                </div>
+                <!--- END COL -->
+            </div>
+            <!--- END ROW -->
+        </div>
+        <!--- END CONTAINER -->
+    </div>
+</body>
+
+</html>
